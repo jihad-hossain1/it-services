@@ -20,7 +20,7 @@ const OurProcess = () => {
             description: 'We provide comprehensive reports and collaborate with you for final signoff.',
         },
     ];
-
+console.log(processSteps);
     return (
         <section className="my-container mt-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Process</h2>
