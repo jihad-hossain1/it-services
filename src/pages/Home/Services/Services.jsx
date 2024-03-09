@@ -37,7 +37,7 @@ const Services = () => {
         },
         // Add more services here
     ];
-
+    console.log(servicesData)
     return (
         <section className="bg-[#F4F8FF] py-20">
             <div className="my-container">
