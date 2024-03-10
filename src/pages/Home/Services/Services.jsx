@@ -3,15 +3,19 @@ import React from 'react';
 
 import ButtonPrimary from '../../../components/ButtonPrimary/ButtonPrimary';
 // import { servicesData } from './data';
-import { FaBrain,FaIndustry, FaNetworkWired, FaRobot } from 'react-icons/fa';
+// import { FaBrain,FaIndustry, FaNetworkWired, FaRobot } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import webImage from '../../../../public/icons/web.png'
+import appDeveloper from '../../../../public/icons/developer.png'
+import marketing from '../../../../public/icons/marketing.png'
+import graphics from '../../../../public/icons/graphics.png'
 
  export const servicesData = [
     {
         title: 'Web Development',
         id: 12,
-        description: 'Streamline your operations with our advanced robotic automation solutions.',
-        icon: <FaRobot size={64} />,
+        description: 'Mastering Web Development: Essential Techniques & Tools',
+        icon: webImage,
         sub_category: [
             {
                 title: "Custom website development",
@@ -64,8 +68,8 @@ import { Link } from 'react-router-dom';
     {
         title: 'App Development',
         id: 13,
-        description: 'Unlock new insights and possibilities with our comprehensive IoT solutions.',
-        icon: <FaNetworkWired size={64} />,
+        description: 'Innovative Solutions for Seamless App Development and User Experience Enhancement.',
+        icon: appDeveloper,
         sub_category: [
             {
                 title: "iOS App",
@@ -107,8 +111,8 @@ import { Link } from 'react-router-dom';
     {
         title: 'Digital Marketing',
         id: 14,
-        description: 'Harness the power of artificial intelligence to enhance your processes.',
-        icon: <FaBrain size={64} />,
+        description: 'Crafting Compelling Strategies to Drive Engagement, Growth, and Success in Today Dynamic Marketing Landscape.',
+        icon: marketing,
         sub_category: [
             {
                 title: "Search engine optimization",
@@ -155,8 +159,8 @@ import { Link } from 'react-router-dom';
     {
         title: 'Graphics Design',
         id: 15,
-        description: 'Transform your production line with our smart manufacturing solutions.',
-        icon: <FaIndustry size={64} />,
+        description: 'Visual Symphony: Crafting Dynamic Designs that Captivate and Inspire Across Media Platforms and Audiences Worldwide',
+        icon: graphics,
         sub_category: [
             {
                 title: "Presentation design",
@@ -229,8 +233,8 @@ const Services = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {servicesData?.map((service, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-lg p-6">
-                            <div className="text-blue-500 mb-4 bg-slate-50 w-fit p-5 rounded">
-                                {service?.icon}
+                            <div className="mb-4 bg-slate-50 w-fit p-5 rounded">
+                                <img src={service?.icon} className='w-[100px] object-cover' alt="" />
                             </div>
                             <h3 className="text-lg font-semibold mb-2">{service?.title}</h3>
                             <p className="text-gray-700">{service?.description}</p>
