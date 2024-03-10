@@ -1,29 +1,29 @@
 // src/components/BlogSection.js
-const blogImage3 = 'https://img.freepik.com/free-photo/3d-rendering-biorobots-concept_23-2149524398.jpg?w=740&t=st=1693065422~exp=1693066022~hmac=86f295328497bd63fb9c565d7cd746a0fa26753f95633f924f93c3b609074713';
-const blogImage1 = 'https://img.freepik.com/free-photo/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg?w=740&t=st=1693065268~exp=1693065868~hmac=142b339bc79be0b20f3c02208736236f6b3f7b4c34e286da1747307baac876af';
-const blogImage2 = 'https://img.freepik.com/free-photo/scientists-protection-suits-analysing-test-tubes-with-blood-sample-chemical-equipped-laboratory-biologists-examining-vaccine-evolution-using-high-tech-technology-researching-treatment_482257-13003.jpg?w=826&t=st=1693065387~exp=1693065987~hmac=1815b6c941bd7000ceadbb8895847b5f52c11d39a50efb5c37f6cb8ea6af4c77';
+const blogImage3 = 'https://images.unsplash.com/photo-1614064548237-096f735f344f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D';
+const blogImage1 = 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D';
+const blogImage2 = 'https://images.unsplash.com/photo-1616095283204-6a1d2ac3b134?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwYXBwJTIwZGVzaWdufGVufDB8fDB8fHww';
 import React from 'react';
 import ButtonPrimary from '../../../components/ButtonPrimary/ButtonPrimary';
 
 const Blog = () => {
   const blogPosts = [
     {
-      title: 'Exploring the Future of IoT',
+      title: 'Navigating the Web: Trends in Modern Web Development',
       image: blogImage1,
       date: 'August 10, 2023',
-      excerpt: 'Discover the latest trends and innovations in the world of Internet of Things.',
+      excerpt: 'Explore the latest trends shaping the web development landscape.',
     },
     {
-      title: 'Robotics in Healthcare: Transforming',
+      title: 'The Art of Mobile App Design: User-Centric Approaches',
       image: blogImage2,
       date: 'July 25, 2023',
-      excerpt: 'Learn how robotics is revolutionizing the healthcare industry and improving patient outcomes.',
+      excerpt: 'Delve into the world of mobile app design and learn the key principles.',
     },
     {
-      title: 'AI and Automation: Shaping Industries',
+      title: 'Cybersecurity Essentials: Safeguarding Your Digital Presence',
       image: blogImage3,
       date: 'June 12, 2023',
-      excerpt: 'Explore the intersection of artificial intelligence and automation in various sectors.',
+      excerpt: 'In an era of increasing cyber threats, understand the fundamental cybersecurity .',
     },
     // Add more blog posts here
   ];
