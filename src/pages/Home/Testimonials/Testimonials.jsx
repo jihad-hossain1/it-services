@@ -16,40 +16,40 @@ import './Testimonials.css';
 const Testimonials = () => {
     const testimonials = [
         {
-            name: 'John Doe',
-            position: 'CEO, Tech Company',
-            comment: 'RoboSync has transformed the way we approach automation. Their solutions have significantly improved.',
-            image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80',
+            name: 'Asif Ahmed',
+            position: 'Chief Technology Officer, Tech Innovations Inc',
+            comment: "Partnering with RoboSync Ltd has been instrumental in our company's technological advancement.Their expertise and dedication have helped us overcome complex challenges and stay ahead of the curve in a competitive market.",
+            image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            name: 'Jane Smith',
-            position: 'CTO, Startup',
-            comment: 'The IoT services provided by RoboSync helped us gather valuable insights from our devices and enhance our decision-making process.',
-            image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
+            name: 'Mostafizur Rahman',
+            position: 'Director of Operations, Global Solutions Group',
+            comment: "I can't speak highly enough of the support we've received from RoboSync Ltd. Their responsive team and tailored solutions have significantly improved our operational efficiency, allowing us to focus on driving business growth.",
+            image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            name: 'Michael Johnson',
-            position: 'COO, Manufacturing',
-            comment: 'We were amazed by the robotic automation capabilities offered by RoboSync. Our production line is now faster and more precise.',
-            image: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80', // Add image URL
+            name: 'Michael Chen',
+            position: 'Chief Financial Officer, Acme Corporation',
+            comment: "Choosing RoboSync Ltd for our IT services has proven to be a wise investment. Their cost-effective solutions and strategic guidance have not only optimized our IT infrastructure but also contributed to our bottom line.",
+            image: 'https://images.unsplash.com/photo-1559192823-e1d8e87def54?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
         },
         {
-            name: 'Emily Williams',
-            position: 'Director, Research Institute',
-            comment: 'RoboSync\'s AI integration services have enabled us to optimize complex data analysis tasks and uncover hidden patterns.',
-            image: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80', // Add image URL
+            name: 'Sarah Davis',
+            position: 'Marketing Manager, Bright Ideas Agency',
+            comment: "Working with RoboSync Ltd has been a game-changer for our marketing efforts. Their innovative solutions and collaborative approach have helped us execute campaigns with precision and achieve remarkable results.",
+            image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
         },
         {
-            name: 'David Brown',
-            position: 'Founder, Robotics Startup',
-            comment: 'The Industrial IoT solutions from RoboSync have allowed us to remotely monitor and control our devices with ease.',
-            image: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80', // Add image URL
+            name: 'Alex Rodriguez',
+            position: 'Human Resources Director, Growth Industries Ltd',
+            comment: "At Growth Industries, our employees are our greatest asset. [Your Company Name] has played a crucial role in ensuring our team feels supported and empowered through their seamless IT solutions and exceptional customer service.",
+            image: 'https://plus.unsplash.com/premium_photo-1667511020337-b399fe63b7fb?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
         },
         {
-            name: 'Sophia Miller',
-            position: 'Product Manager, HealthTech',
-            comment: 'The autonomous vehicle technology provided by RoboSync is revolutionizing our approach to medical logistics and services.',
-            image: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80', // Add image URL
+            name: 'Karen Thompson',
+            position: 'Operations Manager, Swift Logistics Solutions',
+            comment: "I've been consistently impressed with the level of professionalism and expertise demonstrated by [Your Company Name]. Their proactive approach to IT support has minimized disruptions and optimized our operations, allowing us to deliver exceptional service to our clients.",
+            image: 'https://images.unsplash.com/photo-1549473448-5d7196c91f48?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
         },
         // Add more testimonials here
     ];
@@ -66,18 +66,18 @@ const Testimonials = () => {
                 spaceBetween={30}
                 breakpoints={{
                     576: {
-                      // width: 576,
-                      slidesPerView: 1,
+                        // width: 576,
+                        slidesPerView: 1,
                     },
                     768: {
-                      // width: 768,
-                      slidesPerView: 2,
+                        // width: 768,
+                        slidesPerView: 2,
                     },
                     992: {
-                      
-                      slidesPerView: 3,
+
+                        slidesPerView: 3,
                     }
-                  }}
+                }}
 
             >
                 {testimonials.map((testimonial, index) => (
