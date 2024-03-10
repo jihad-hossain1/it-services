@@ -16,14 +16,14 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-col justify-center">
           <h2 className="text-2xl md:text-4xl font-bold mb-4">
-            About RoboSync
+            About ITTechSolutions
           </h2>
           <p className="text-gray-700 mb-6">
-            Welcome to ITTechSolutions, your one-stop destination for innovative and
-            reliable IT services. We specialize in providing top-notch solutions
-            in App Development, Digital Marketing, Graphics Design, and Web
-            Development. With a dedicated team of experts and a passion for
-            cutting-edge technology, we strive to empower businesses of all
+            Welcome to ITTechSolutions, your one-stop destination for innovative
+            and reliable IT services. We specialize in providing top-notch
+            solutions in App Development, Digital Marketing, Graphics Design,
+            and Web Development. With a dedicated team of experts and a passion
+            for cutting-edge technology, we strive to empower businesses of all
             sizes to thrive in the digital landscape.
           </p>
           <p className="text-gray-700 mb-6">
