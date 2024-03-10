@@ -20,9 +20,10 @@ const OurProcess = () => {
       title: "Iterative Refinement",
       icon: <FaClipboardCheck size={48} />,
       description:
-        "Collaborative approach ensures exceeding expectations through feedback.",
+        "Collaborative approach ensures exceeding expectations through feedback",
     },
   ];
+  
   return (
     <section className="my-container mt-20">
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
