@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="w-full h-full">
           <img
             className="w-full h-full bg-contain"
-            src="https://img.freepik.com/free-vector/cute-artificial-intelligence-robot-isometric-icon_1284-63045.jpg?w=740&t=st=1693057305~exp=1693057905~hmac=fa2443925c9b9468fa8d004f1e1673ffde83966e6507f545270f79c32ceb44b3"
+            src="https://img.freepik.com/premium-photo/flat-planning-schedule-with-tasks-calendar-with-people-work-by-ai-generative_199064-1934.jpg?w=900"
             alt="Animated Image"
           />
         </div>
@@ -19,7 +19,7 @@ const AboutUs = () => {
             About RoboSync
           </h2>
           <p className="text-gray-700 mb-6">
-            Welcome to RoboSync, your one-stop destination for innovative and
+            Welcome to ITTechSolutions, your one-stop destination for innovative and
             reliable IT services. We specialize in providing top-notch solutions
             in App Development, Digital Marketing, Graphics Design, and Web
             Development. With a dedicated team of experts and a passion for
@@ -27,7 +27,7 @@ const AboutUs = () => {
             sizes to thrive in the digital landscape.
           </p>
           <p className="text-gray-700 mb-6">
-            At RoboSync, we believe in delivering excellence through a
+            At ITTechSolutions, we believe in delivering excellence through a
             combination of creativity, expertise, and customer-centric approach.
             Our journey began with a vision to revolutionize the way businesses
             leverage technology, and today, we stand proud as a trusted partner
