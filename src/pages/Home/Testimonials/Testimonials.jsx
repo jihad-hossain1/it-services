@@ -51,6 +51,12 @@ const Testimonials = () => {
             comment: "I've been consistently impressed with the level of professionalism and expertise demonstrated by [Your Company Name]. Their proactive approach to IT support has minimized disruptions and optimized our operations, allowing us to deliver exceptional service to our clients.",
             image: 'https://images.unsplash.com/photo-1549473448-5d7196c91f48?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
         },
+        {
+            name: 'Rebecca Clark',
+            position: 'IT Manager, Precision Manufacturing Co',
+            comment: "As an IT manager, I rely on reliable partners to support our infrastructure. [Your Company Name] has consistently exceeded our expectations with their proactive approach and innovative solutions. Their team feels like an extension of ours.",
+            image: 'https://images.unsplash.com/photo-1495603889488-42d1d66e5523?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add image URL
+        },
         // Add more testimonials here
     ];
 
