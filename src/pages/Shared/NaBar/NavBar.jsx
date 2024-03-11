@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:block">
-              <Link className="">
+              <Link className="" to="/login">
                 <ButtonSecondary>Log In</ButtonSecondary>
               </Link>
             </div>
