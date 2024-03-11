@@ -1,4 +1,6 @@
-const CookiePolicy = () => {
+import React from "react";
+
+const Cookies = () => {
   return (
     <section className="my-container md:py-24 py-12">
       <div className="grid md:grid-cols-2 gap-5">
@@ -28,4 +30,4 @@ const CookiePolicy = () => {
   );
 };
 
-export default CookiePolicy;
+export default Cookies;

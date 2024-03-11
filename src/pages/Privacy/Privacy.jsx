@@ -1,4 +1,6 @@
-const PrivacyPolicy = () => {
+import React from "react";
+
+const Privacy = () => {
   return (
     <section className="my-container md:py-24 py-12">
       <div className="grid md:grid-cols-2 gap-5">
@@ -10,7 +12,9 @@ const PrivacyPolicy = () => {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">Privacy Policy</h1>
+          <h1 className="text-2xl md:text-4xl font-bold mb-4">
+            Privacy Policy
+          </h1>
           <p className="mb-4">
             At ItTechSolutions, we are committed to protecting your privacy. Our
             Privacy Policy outlines how we collect, use, and disclose
@@ -31,4 +35,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default Privacy;

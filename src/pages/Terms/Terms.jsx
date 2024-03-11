@@ -1,4 +1,6 @@
-const TermsOfUse = () => {
+import React from "react";
+
+const Terms = () => {
   return (
     <section className="my-container md:py-24 py-12">
       <div className="grid md:grid-cols-2 gap-5">
@@ -50,4 +52,4 @@ const TermsOfUse = () => {
   );
 };
 
-export default TermsOfUse;
+export default Terms;

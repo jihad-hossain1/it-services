@@ -1,16 +1,10 @@
-// src/components/AdvancedTechnology.js
-import { motion } from 'framer-motion';
-import React from 'react';
-import { BsClipboard2Data } from 'react-icons/bs';
-import { FaArrowRight } from 'react-icons/fa';
-
-import { LiaRobotSolid } from 'react-icons/lia';
-import { PiGradientBold } from 'react-icons/pi';
-import { SiSololearn } from 'react-icons/si';
+import { motion } from "framer-motion";
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import aiImage from "../../../../public/icons/icons2/ai.png";
 import machineImage from "../../../../public/icons/icons2/maching.png";
 import tech from "../../../../public/icons/icons2/tech.png";
-import fullImage from "../../../../public/icons/icons2/tech.png";
+import roboImage from "../../../../public/icons/icons2/robo.png";
 
 const AdvancedTechnology = () => {
   const technologyItems = [
@@ -18,7 +12,7 @@ const AdvancedTechnology = () => {
       title: "Machine learning algorithms",
       icon: machineImage,
       description:
-        "Explore the world of robotics and automation for improved efficiency and precision.",
+        "Innovative Approaches, Applications, and Future Directions in Data Science and Artificial Intelligence",
     },
     {
       title: "ADI Technology",
@@ -27,10 +21,10 @@ const AdvancedTechnology = () => {
         "Advanced Digital Intelligence (ADI) is one of the niche leader for smartphone apps",
     },
     {
-      title: "Full Stack Development",
-      icon: fullImage,
+      title: "Robotics",
+      icon: roboImage,
       description:
-        "Mastering Full Stack Development: A Comprehensive Guide to Building Dynamic Web Applications with Frontend, Backend, and Database",
+        "Explore the world of robotics and automation for improved efficiency and precision.",
     },
     {
       title: "Ai Technology",
