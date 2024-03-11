@@ -1,24 +1,27 @@
 // src/components/OurProcess.js
 import React from "react";
 import { FaClipboardCheck, FaCode, FaTools } from "react-icons/fa";
+import { IoSettings } from "react-icons/io5";
+import { SiMaterialdesignicons } from "react-icons/si";
+import { SlReload } from "react-icons/sl";
 
 const OurProcess = () => {
   const processSteps = [
     {
       title: "Strategic Planning",
-      icon: <FaTools size={45} />,
+      icon: <IoSettings size={45} />,
       description:
         "Grasping your project's essence, we craft a roadmap to success, ensuring clarity.",
     },
     {
       title: "Design & Development",
-      icon: <FaCode size={48} />,
+      icon: <SiMaterialdesignicons size={48} />,
       description:
         "With a blueprint, our experts bring ideas to life with perfection.",
     },
     {
       title: "Iterative Refinement",
-      icon: <FaClipboardCheck size={48} />,
+      icon: <SlReload size={48} />,
       description:
         "Collaborative approach ensures exceeding expectations through feedback",
     },
