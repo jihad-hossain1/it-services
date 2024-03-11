@@ -6,6 +6,9 @@ import AllServices from "../pages/Services/AllServices";
 import About from "../pages/About/About";
 import Blogs from "../pages/Blogs/Blogs";
 import Contacts from "../pages/Contacts/Contacts";
+import TermsOfUse from "../pages/TermsOfUsePage/TermsOfUsePage";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import CookiePolicy from "../pages/CookiePolicy/CookiePolicy";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,18 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <Contacts />,
+      },
+      {
+        path: "/termsOfUse",
+        element: <TermsOfUse />,
+      },
+      {
+        path: "/privacyPolicy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "/cookiePolicy",
+        element: <CookiePolicy />,
       },
     ],
   },
