@@ -10,17 +10,19 @@ import appDeveloper from '../../../../public/icons/developer.png'
 import marketing from '../../../../public/icons/marketing.png'
 import graphics from '../../../../public/icons/graphics.png'
 
- export const servicesData = [
+export const servicesData = [
     {
         title: 'Web Development',
         id: 12,
         description: 'Mastering Web Development: Essential Techniques & Tools',
         icon: webImage,
+        href: "/web-development",
         sub_category: [
             {
                 title: "Custom website development",
                 description: "",
                 image: "",
+
             },
             {
                 title: "Ecommerce",
@@ -70,6 +72,7 @@ import graphics from '../../../../public/icons/graphics.png'
         id: 13,
         description: 'Innovative Solutions for Seamless App Development and User Experience Enhancement.',
         icon: appDeveloper,
+        href: "/app-development",
         sub_category: [
             {
                 title: "iOS App",
@@ -113,6 +116,7 @@ import graphics from '../../../../public/icons/graphics.png'
         id: 14,
         description: 'Crafting Compelling Strategies to Drive Engagement, Growth, and Success in Today Dynamic Marketing Landscape.',
         icon: marketing,
+        href: "/digital-marketing",
         sub_category: [
             {
                 title: "Search engine optimization",
@@ -161,6 +165,7 @@ import graphics from '../../../../public/icons/graphics.png'
         id: 15,
         description: 'Visual Symphony: Crafting Dynamic Designs that Captivate and Inspire Across Media Platforms and Audiences Worldwide',
         icon: graphics,
+        href: "/graphics-design",
         sub_category: [
             {
                 title: "Presentation design",
@@ -219,8 +224,8 @@ import graphics from '../../../../public/icons/graphics.png'
             },
         ]
     }
-   
-   
+
+
 ];
 
 const Services = () => {
@@ -238,11 +243,11 @@ const Services = () => {
                             </div>
                             <h3 className="text-lg font-semibold mb-2">{service?.title}</h3>
                             <p className="text-gray-700">{service?.description}</p>
-                          <Link to={`/services-details/${service?.id}`}>
-                          <button className='mt-5'>
-                                <ButtonPrimary>View Details</ButtonPrimary>
-                            </button>
-                          </Link>
+                            <Link to={`/services-details/${service?.id}`}>
+                                <button className='mt-5'>
+                                    <ButtonPrimary>View Details</ButtonPrimary>
+                                </button>
+                            </Link>
                         </div>
                     ))}
                 </div>
