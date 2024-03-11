@@ -16,22 +16,28 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-col justify-center">
           <h2 className="text-2xl md:text-4xl font-bold mb-4">
-            About ITTechSolutions
+            About ItTechSolutions
           </h2>
           <p className="text-gray-700 mb-6">
-            Welcome to ITTechSolutions, your one-stop destination for innovative
-            and reliable IT services. We specialize in providing top-notch
-            solutions in App Development, Digital Marketing, Graphics Design,
-            and Web Development. With a dedicated team of experts and a passion
-            for cutting-edge technology, we strive to empower businesses of all
-            sizes to thrive in the digital landscape.
+            Welcome to ItTechSolutions, your premier destination for
+            cutting-edge IT services designed to elevate your business to new
+            heights. We specialize in providing a wide array of solutions
+            spanning App Development, Digital Marketing, Graphics Design, and
+            Web Development, tailored to meet the diverse needs of our clients.
           </p>
           <p className="text-gray-700 mb-6">
-            At ITTechSolutions, we believe in delivering excellence through a
-            combination of creativity, expertise, and customer-centric approach.
-            Our journey began with a vision to revolutionize the way businesses
-            leverage technology, and today, we stand proud as a trusted partner
-            for numerous enterprises worldwide.
+            Our inception was rooted in a vision to redefine the IT service
+            landscape, and today, we proudly stand as a beacon of innovation and
+            reliability in the industry. At ItTechSolutions, we believe in the
+            power of technology to drive meaningful change and create lasting
+            impact for businesses of all sizes.
+          </p>
+          <p className="text-gray-700 mb-6">
+            What sets us apart is our unwavering commitment to excellence and
+            our relentless pursuit of customer satisfaction. We understand that
+            each project is unique, and that's why we approach every endeavor
+            with a fresh perspective and a dedication to understanding your
+            specific goals and challenges.
           </p>
           <Link to="/contact">
             <button className="w-fit">
