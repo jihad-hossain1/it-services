@@ -7,6 +7,11 @@ import About from "../pages/About/About";
 import Blogs from "../pages/Blogs/Blogs";
 import Contacts from "../pages/Contacts/Contacts";
 import Login from "../pages/Login/Login";
+import Footer from "../pages/Shared/Footer/Footer";
+import WebDevelopment from "../pages/Home/WebDevelopment/WebDevelopment";
+import AppDevelopment from "../pages/Home/AppDevelopment/AppDevelopment";
+import DigitalMarketing from "../pages/Home/DigitalMarketing/DigitalMarketing";
+import GraphicsDesign from "../pages/Home/GraphicsDesign";
 
 const router = createBrowserRouter([
   {
@@ -38,8 +43,22 @@ const router = createBrowserRouter([
         element: <Contacts />,
       },
       {
-        path: "/login",
-        element: <Login />,
+        path: "/web-development",
+        element: <WebDevelopment />,
+      },
+      { path: "/login", element: <Login /> },
+
+      {
+        path: "/app-development",
+        element: <AppDevelopment />,
+      },
+      {
+        path: "/digital-marketing",
+        element: <DigitalMarketing />,
+      },
+      {
+        path: "/graphics-design",
+        element: <GraphicsDesign />,
       },
     ],
   },
